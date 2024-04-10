@@ -56,24 +56,24 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2equJAKXjxAcP5i4oo5Oc0Xypgq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/kzielonka/Projects/content_type"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kzielonka/Projects/content_type&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Gradle.RawContentTypeTest.convertsToContentTypeAndBack">
-    <configuration name="ContentTypeStringTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+}</component>
+  <component name="RunManager" selected="Gradle.RawContentTypeTest.parsesType">
+    <configuration name="RawContentTypeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -86,31 +86,7 @@
           <list>
             <option value=":lib:test" />
             <option value="--tests" />
-            <option value="&quot;com.github.kzielonka.content_type.ContentTypeStringTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="ContentTypeStringTest.throws_error_trying_to_initialise_with_null_text" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":lib:test" />
-            <option value="--tests" />
-            <option value="&quot;com.github.kzielonka.content_type.ContentTypeStringTest.throws_error_trying_to_initialise_with_null_text&quot;" />
+            <option value="&quot;com.github.kzielonka.content_type.RawContentTypeTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -135,6 +111,30 @@
             <option value=":lib:test" />
             <option value="--tests" />
             <option value="&quot;com.github.kzielonka.content_type.RawContentTypeTest.convertsToContentTypeAndBack&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="RawContentTypeTest.parsesType" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":lib:test" />
+            <option value="--tests" />
+            <option value="&quot;com.github.kzielonka.content_type.RawContentTypeTest.parsesType&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -195,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RawContentTypeTest.parsesType" />
+        <item itemvalue="Gradle.RawContentTypeTest" />
         <item itemvalue="Gradle.RawContentTypeTest.convertsToContentTypeAndBack" />
         <item itemvalue="Gradle.SlashCharParserTest.parses_slash" />
         <item itemvalue="Gradle.TypeParserTest.parsers_application_type" />
-        <item itemvalue="Gradle.ContentTypeStringTest.throws_error_trying_to_initialise_with_null_text" />
-        <item itemvalue="Gradle.ContentTypeStringTest" />
       </list>
     </recent_temporary>
   </component>
@@ -213,5 +213,16 @@
       <updated>1712644354820</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lib/src/main/java/com/github/kzielonka/content_type/parser/TypeStep.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
